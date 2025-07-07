@@ -1,4 +1,4 @@
-kafka:
+app:
   topics:
     order-created: order-created-topic
     order-processed: order-processed-topic
