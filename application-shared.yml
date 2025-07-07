@@ -1,0 +1,6 @@
+app:
+  topics:
+    order-created: order-created-topic
+    order-processed: order-processed-topic
+    inventory-check: inventory-check-topic
+    inventory-updated: inventory-updated-topic
