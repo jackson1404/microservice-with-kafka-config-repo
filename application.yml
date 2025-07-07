@@ -10,6 +10,9 @@ app:
       order-processed: order-processed-group
       inventory-check: inventory-check-group
       inventory-updated: inventory-update-group
+      notification-order-created: notification-order-created-group
+      notification-order-processed: notification-order-processed-group
+
     
     
     
