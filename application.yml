@@ -12,6 +12,7 @@ app:
       inventory-updated: inventory-update-group
       notification-order-created: notification-order-created-group
       notification-order-processed: notification-order-processed-group
+      notification-inventory-check: notification-inventory-check-group
 
     
     
