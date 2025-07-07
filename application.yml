@@ -4,3 +4,12 @@ app:
     order-processed: order-processed-topic
     inventory-check: inventory-check-topic
     inventory-updated: inventory-updated-topic
+  kafka:
+    consumer-groups:
+      order-created: order-created-group
+      order-processed: order-processed-group
+      inventory-check: inventory-check-group
+      inventory-updated: inventory-update-group
+    
+    
+    
