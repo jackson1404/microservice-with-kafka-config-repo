@@ -1,15 +1,19 @@
 app:
   topics:
-    orderCreated: order-created-topic
-    orderProcessed: order-processed-topic
-    inventoryCheck: inventory-check-topic
-    inventoryUpdated: inventory-updated-topic
+    order-created: order-created-topic
+    order-processed: order-processed-topic
+    inventory-check: inventory-check-topic
+    inventory-updated: inventory-updated-topic
   kafka:
-    consumerGroups:
-      orderCreated: order-created-group
-      orderProcessed: order-processed-group
-      inventoryCheck: inventory-check-group
-      inventoryUpdated: inventory-update-group
-      notificationOrderCreated: notification-order-created-group
-      notificationOrderProcessed: notification-order-processed-group
-      notificationInventoryCheck: notification-inventory-check-group
+    consumer-groups:
+      order-created: order-created-group
+      order-processed: order-processed-group
+      inventory-check: inventory-check-group
+      inventory-updated: inventory-update-group
+      notification-order-created: notification-order-created-group
+      notification-order-processed: notification-order-processed-group
+      notification-inventory-check: notification-inventory-check-group
+
+    
+    
+    
